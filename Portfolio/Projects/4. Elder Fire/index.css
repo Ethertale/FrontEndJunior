@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+    color: white;
+}
+
+body{
+    background-color: #291f0a;
+    padding: 4em;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.logoandnews{
+    border: 2px solid yellow;
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+}
+.gamelogo{
+    display:inline-block;
+    justify-content: center;
+    align-content: center;
+    border: 4px solid grey;
+    text-align: center;
+    width: 35%;
+}
+
+.news{
+    display: inline-block;
+    width: 40%;
+    border: 4px solid grey;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.news h2,
+.news > p{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.placeholder-imagenews{
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-flex;
+    width: 80px;
+    height: 100px;
+    background-color: black;
+    border: 3px dotted violet;
+}
+
+.lines{
+    display: inline;
+    flex-direction: column;
+    align-content: center;
+}
+
+.updates{
+    display: inline-flex;
+    width: 100%;
+}
+
+.content{
+    border: 4px solid grey;
+    width: 80%;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.content-features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-playnow,
+.content-register,
+.content-gallery,
+.content-subscription,
+.content-manual,
+.content-classes,
+.content-leaderboard,
+.content-servers{
+    display: inline-flex;
+    width: 30%;
+    border: 2px solid cyan;
+}
+
+.placeholder-featuresimage{
+    display: inline-flex;
+    background-color: black;
+    width: 30%;
+    height: 100%;
+    margin-right: 0.5em;
+}
+
+.features-lines{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+
+.features-lines a{
+    text-align: center;
+}
+
+

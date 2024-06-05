@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/iomanoid');
+
+#topname{
+    font-family: Acme;
+    font-size: 75px;
+    text-shadow: 0px 8px 5px purple,
+                 3px 7px 1px black,
+                 -3px -3px 1px black,
+                 3px -3px 1px black,
+                 -3px 7px 1px black;
+}
+#navigationbuttonsframe{
+    font-family: Acme;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #26036a;
+    color: white;
+    border-radius: 10px;
+}
+#buttonTop{
+    color: white;
+}
+#headerstyle{
+    color: white;
+    font-family: Acme;
+    font-size: 50px;
+    text-shadow:3px 3px 1px black,
+                -3px -3px 1px black,
+                3px -3px 1px black,
+                -3px 3px 1px black;
+    text-align: center;
+}
+p{
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+pre{
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#tshirts{
+    border-radius: 100px;
+    margin: 5px;
+    border: solid 3px;
+    border-color: purple;
+}
+#extrainfo{
+    text-align: left;
+    margin-left: 40px;
+}
+#extrainfotext{
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+.imagesSides{
+    border: solid 3px;
+    border-radius: 20px;
+    border-color: purple;
+}
+#imageLeft1{
+    width: 250px;
+    float: left;
+}
+#imageRight1{
+    width: 250px;
+    float: right;
+    
+}
+#imageLeft2{
+    width: 500px;
+    float: left;
+}
+#imageRight2{
+    width: 500px;
+    float: right;
+}
+#merchImageLeft{
+    float: left;
+    width: 300px;
+}
+#merchImageRight1{
+    float: left;
+    width: 250px;
+    height: auto;
+    display: inline;
+
+}
+#merchImageRight2{
+    float: right;
+    width: 250px;
+    height: auto;
+    display: inline;
+
+}
+#prices{
+    font-size: 40px;
+    font-style: normal;
+    font-family: acme;
+    color: white;
+}
+.tshirtsalignment{
+    float: left;
+    
+}
