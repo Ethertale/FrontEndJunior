@@ -1,0 +1,15 @@
+html{
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body{
+    font: inherit;
+    background-image: url(Images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position: center;
+}
+
+.container{
+    padding: 2em max(calc((100vw - 1920px) / 2), 2em);
+}

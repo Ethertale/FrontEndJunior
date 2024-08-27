@@ -10,6 +10,13 @@ body{
     padding: 4em;
     display: inline-flex;
     justify-content: center;
+    height: 85vh;
+}
+
+.gamelogo,
+.news{
+    margin-bottom: 3vw;
+    margin-top: 3vw;
 }
 
 .container{
@@ -96,13 +103,17 @@ body{
     display: inline-flex;
     width: 30%;
     border: 2px solid cyan;
+    margin: 0.2em;
+    background-color: black;
 }
 
 .placeholder-featuresimage{
+    border: 3px dotted violet;
+    margin: 5px;
     display: inline-flex;
     background-color: black;
-    width: 30%;
-    height: 100%;
+    width: 80px;
+    height: 100px;
     margin-right: 0.5em;
 }
 

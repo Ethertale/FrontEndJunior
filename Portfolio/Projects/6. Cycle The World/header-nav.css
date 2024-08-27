@@ -1,0 +1,35 @@
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header h1{
+    font-size: 2em;
+}
+
+.section-header a{
+    text-decoration: none;
+    color: #f46624;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0, 0.03);
+    border-radius: 10px;
+    padding: 0.2em;
+}
+
+.section-header ul{
+    display: flex;
+    gap: 2em;
+}
+
+.section-header li{
+    display: block;
+    list-style: none outside;
+    font-size: 1.5em;
+    
+}
+
+.section-header a:hover{
+    color: black;
+}
